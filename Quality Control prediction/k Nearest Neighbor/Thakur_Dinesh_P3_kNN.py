@@ -10,9 +10,9 @@ import pandas as pd
 from math import sqrt
 import matplotlib.pyplot as plt
 
-# aFileName = input("Enter the name of your train file: ")
-# fin= open(aFileName, "r")
-fin= open('P3train.txt', "r")
+aFileName = input("Enter the name of your train file: ")
+fin= open(aFileName, "r")
+# fin= open('P3train.txt', "r")
 
 aString = fin.readline()
 d=aString.split("\t")

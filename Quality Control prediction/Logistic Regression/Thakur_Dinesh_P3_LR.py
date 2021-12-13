@@ -9,9 +9,9 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# aFileName = input("Enter the name of your train file: ")
-# fin= open(aFileName, "r")
-fin= open('P3train.txt', "r")
+aFileName = input("Enter the name of your train file: ")
+fin= open(aFileName, "r")
+#fin= open('P3train.txt', "r")
 
 aString = fin.readline()
 d=aString.split("\t")
@@ -77,9 +77,9 @@ Y_train = TY.values
 X_train = X_train.T
 Y_train = Y_train.reshape(1, X_train.shape[1]) 
 
-# aFileName = input("Enter the name of your test file: ")
-# fin= open(aFileName, "r")
-fin= open('P3test.txt', "r")
+aFileName = input("Enter the name of your test file: ")
+fin= open(aFileName, "r")
+# fin= open('P3test.txt', "r")
 
 aString = fin.readline()
 d=aString.split("\t")
